@@ -128,14 +128,13 @@ body {
 }
 
 .container-images {
-  position: relative;
   width: 100%;
   max-width: 900px;
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  height: 100%;
+  padding: 150px;
 }
 
 .bntSlider {
@@ -157,8 +156,10 @@ body {
 }
 
 .slider {
-  width: 100%;
+  max-height: 250px;
+  width: 80%;
   object-fit: cover;
+  position: absolute;
   opacity: 0;
 }
 
