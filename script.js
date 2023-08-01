@@ -1,9 +1,13 @@
 const menu = document.querySelector(".menu");
 const NavMenu = document.querySelector(".nav-menu");
 
-menu.addEventListener("click", () => {
+function closeMenu() {
   menu.classList.toggle("ativo");
   NavMenu.classList.toggle("ativo");
+}
+
+menu.addEventListener("click", () => {
+  closeMenu();
 });
 
 const images = document.querySelectorAll(".slider");
