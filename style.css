@@ -241,6 +241,7 @@ footer a {
     height: 100%;
     flex-direction: column;
     background-color: transparent;
+    -webkit-backdrop-filter: blur(50px);
     backdrop-filter: blur(50px);
 
     gap: -10px;
