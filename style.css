@@ -43,16 +43,16 @@ body {
 .navigation ul {
   display: flex;
   align-items: center;
-  gap: 5rem;
+  gap: 2rem;
 }
 .navigation ul li a {
-  color: var(--dark);
+  color: var(--white);
   font-size: 17px;
   font-weight: 500;
   transition: all 0.5s;
 }
 .navigation ul li a:hover {
-  color: var(--red);
+  color: var(--yellow);
 }
 .navigation i {
   cursor: pointer;
@@ -77,15 +77,16 @@ body {
 }
 #home {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 0px 10%;
+  justify-content: center;
 }
 .home-text {
   max-width: 37rem;
   flex: 1;
+  text-align: center;
+  padding: 150px 0 30px 0;
 }
 .home-text .text-h4 {
   font-size: 1.5rem;
@@ -113,7 +114,7 @@ body {
   padding: 20px 0 50px 0;
   text-align: center;
   width: 100%;
-  height: 100%;
+  height: 100vh;
 }
 
 #eventos {
@@ -126,16 +127,16 @@ body {
   align-items: center;
   justify-content: center;
   gap: 25px;
+  padding-top: 50px;
 }
 
 .container-images {
-  width: 100%;
-  max-width: 900px;
+  width: 80%;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  padding: 150px;
 }
 
 .bntSlider {
@@ -157,20 +158,19 @@ body {
 }
 
 .slider {
-  max-height: 250px;
+  max-height: 450px;
   width: 80%;
   object-fit: cover;
-  position: absolute;
-  opacity: 0;
+  display: none;
 }
 
 .selected {
-  opacity: 1;
+  display: block;
 }
 
 #contato {
   text-align: center;
-  padding-top: 20px;
+  padding-top: 50px;
 }
 
 #contato h2 {
