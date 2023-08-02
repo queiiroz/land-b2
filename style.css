@@ -1,10 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   list-style: none;
   text-decoration: none;
 }
@@ -195,6 +193,30 @@ body {
   filter: invert(100%);
 }
 
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--yellow);
+  gap: 10px;
+  padding: 30px;
+}
+
+.links {
+  display: flex;
+  gap: 10px;
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--yellow);
+  transition: all 0.5s;
+
+  &:hover {
+    color: var(--white);
+  }
+}
 @media (max-width: 785px) {
   .navigation {
     padding: 18px 20px;
