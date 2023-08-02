@@ -120,11 +120,10 @@ body {
 }
 
 .container-slider {
-  margin-top: 18px;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 25px;
+
   padding-top: 50px;
 }
 
